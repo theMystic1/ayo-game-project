@@ -23,7 +23,7 @@ The Ayo Game is a digital adaptation of the traditional African board game, also
 
 1. Clone the repository to your local machine.
 2. Install dependencies using `npm install`.
-3. Run the game using `npm start`.
+3. Run the game using `npm run dev`.
 4. Customize settings and start playing!
 
 ## Contributing
