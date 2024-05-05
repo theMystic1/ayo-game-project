@@ -26,12 +26,31 @@ The Ayo Game is a digital adaptation of the traditional African board game, also
 3. Run the game using `npm run dev`.
 4. Customize settings and start playing!
 
-## Contributing
+### Contributing
 
-1. Fork the repository and create a new branch for your feature.
-2. Make changes and ensure code quality with tests and linting.
-3. Submit a pull request for review and feedback.
-4. Collaborate with the community to improve the game.
+To contribute to the Ayo Game project, please follow these guidelines:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right corner of the repository's page to create your copy of the project.
+
+2. **Create a New Branch**: Before making any changes, create a new branch for your feature or bug fix. Name the branch descriptively to indicate the purpose of your changes.
+
+3. **Work on Your Feature**: Inside the `src/components` folder, create a new folder with the name of the page you are working on (e.g., `landingpage` for the landing page). 
+
+4. **Build Your Components**: Within the page folder you created, build all the components necessary for that page. Keep your components organized and modular, focusing on reusability and maintainability.
+
+5. **Integrate Your Components**: Once your components are ready, integrate them into the corresponding page component. Only import and use your components within the respective page component to maintain separation of concerns.
+
+6. **Test Your Changes**: Ensure that your components work as expected by testing them locally. Verify that they render correctly and behave as intended in different scenarios.
+
+7. **Commit Your Changes**: Commit your changes frequently with clear and descriptive commit messages. This helps in tracking the progress of your work and makes it easier to review.
+
+8. **Push Your Changes**: Push your branch to your forked repository on GitHub to make your changes available for review.
+
+9. **Submit a Pull Request**: Once you have completed your feature or fix, submit a pull request to the main repository's `main` branch. Provide a detailed description of your changes and any relevant information for reviewers.
+
+10. **Collaborate and Iterate**: Collaborate with other contributors and reviewers to address feedback and improve your changes. Iterate on your code as needed until it meets the project's standards and requirements.
+
+Thank you for contributing to the Ayo Game project! Your efforts help make the game better for everyone.
 
 ## License
 
