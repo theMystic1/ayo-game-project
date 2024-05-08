@@ -6,7 +6,7 @@
 }
 .leaderboard-main {
   margin-top: 100px;
-  height: 800px;
+  height: 750px;
   width: 100%;
   border-radius: 30px;
   border: 10px solid #b67800;
@@ -42,13 +42,4 @@
   position: absolute;
   right: -70px;
   top: -70px;
-}
-.leaderboard-main section {
-  height: 100%;
-  width: 100%;
-  max-width: 1015px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
 }
