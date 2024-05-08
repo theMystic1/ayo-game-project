@@ -1,18 +1,23 @@
+import React from "react";
 import "./style.css";
-import backButton from "../../assets/back-button.svg";
-import leaderboardStar from "../../assets/leaderboard-star.svg";
+import { backButton, leaderboardStar } from "../../constants";
 import LeaderboardItem from "../LeaderboardItem";
+import { data } from "./data";
 
 function Leaderboard() {
   return (
-    <div className="leaderboard-bg">
+    <div className="leaderboard">
       <img src={backButton} alt="Go Back" />
-      <div className="leaderboard-main">
-        <header>
-          <h1>LEADERBOARD</h1>
-          <img src={leaderboardStar} alt="Leaderboard Star" />
+      <div className="leaderboard__main">
+        <header className="leaderboard__header">
+          <h1 className="leaderboard__title">LEADERBOARD</h1>
+          <img
+            className="leaderboard__star"
+            src={leaderboardStar}
+            alt="Leaderboard Star"
+          />
         </header>
-        <LeaderboardItem />
+        <LeaderboardItem users={data} />
       </div>
     </div>
   );
